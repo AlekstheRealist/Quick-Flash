@@ -1,0 +1,10 @@
+<div>
+  <%= simple_form_for @card do |f| %>
+    <%= f.input :type %>
+    <%= f.input :card_front %>
+    <%= f.input :card_back %>
+
+    <%= f.submit 'Create' %>
+
+  <% end %>
+</div>
